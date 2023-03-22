@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58DA330329CAE25800C2BAAB /* jackal_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330229CAE25800C2BAAB /* jackal_appleApp.swift */; };
+		58DA330529CAE25800C2BAAB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330429CAE25800C2BAAB /* Persistence.swift */; };
+		58DA330829CAE25800C2BAAB /* jackal_apple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330629CAE25800C2BAAB /* jackal_apple.xcdatamodeld */; };
+		58DA330A29CAE25800C2BAAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330929CAE25800C2BAAB /* ContentView.swift */; };
+		58DA330C29CAE25800C2BAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DA330B29CAE25800C2BAAB /* Assets.xcassets */; };
+		58DA331029CAE25800C2BAAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DA330F29CAE25800C2BAAB /* Preview Assets.xcassets */; };
+		58DA331A29CAE25900C2BAAB /* jackal_appleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA331929CAE25900C2BAAB /* jackal_appleTests.swift */; };
+		58DA332429CAE25900C2BAAB /* jackal_appleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA332329CAE25900C2BAAB /* jackal_appleUITests.swift */; };
+		58DA332629CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA332529CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58DA331629CAE25900C2BAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DA32F729CAE25800C2BAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DA32FE29CAE25800C2BAAB;
+			remoteInfo = "jackal-apple";
+		};
+		58DA332029CAE25900C2BAAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DA32F729CAE25800C2BAAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DA32FE29CAE25800C2BAAB;
+			remoteInfo = "jackal-apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58DA32FF29CAE25800C2BAAB /* jackal-apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jackal-apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DA330229CAE25800C2BAAB /* jackal_appleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleApp.swift; sourceTree = "<group>"; };
+		58DA330429CAE25800C2BAAB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		58DA330729CAE25800C2BAAB /* jackal_apple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jackal_apple.xcdatamodel; sourceTree = "<group>"; };
+		58DA330929CAE25800C2BAAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58DA330B29CAE25800C2BAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DA330D29CAE25800C2BAAB /* jackal_apple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jackal_apple.entitlements; sourceTree = "<group>"; };
+		58DA330F29CAE25800C2BAAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58DA331529CAE25900C2BAAB /* jackal-appleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jackal-appleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DA331929CAE25900C2BAAB /* jackal_appleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleTests.swift; sourceTree = "<group>"; };
+		58DA331F29CAE25900C2BAAB /* jackal-appleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jackal-appleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DA332329CAE25900C2BAAB /* jackal_appleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleUITests.swift; sourceTree = "<group>"; };
+		58DA332529CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DA32FC29CAE25800C2BAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DA331229CAE25900C2BAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DA331C29CAE25900C2BAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DA32F629CAE25800C2BAAB = {
+			isa = PBXGroup;
+			children = (
+				58DA330129CAE25800C2BAAB /* jackal-apple */,
+				58DA331829CAE25900C2BAAB /* jackal-appleTests */,
+				58DA332229CAE25900C2BAAB /* jackal-appleUITests */,
+				58DA330029CAE25800C2BAAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58DA330029CAE25800C2BAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DA32FF29CAE25800C2BAAB /* jackal-apple.app */,
+				58DA331529CAE25900C2BAAB /* jackal-appleTests.xctest */,
+				58DA331F29CAE25900C2BAAB /* jackal-appleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DA330129CAE25800C2BAAB /* jackal-apple */ = {
+			isa = PBXGroup;
+			children = (
+				58DA330229CAE25800C2BAAB /* jackal_appleApp.swift */,
+				58DA330429CAE25800C2BAAB /* Persistence.swift */,
+				58DA330929CAE25800C2BAAB /* ContentView.swift */,
+				58DA330B29CAE25800C2BAAB /* Assets.xcassets */,
+				58DA330D29CAE25800C2BAAB /* jackal_apple.entitlements */,
+				58DA330629CAE25800C2BAAB /* jackal_apple.xcdatamodeld */,
+				58DA330E29CAE25800C2BAAB /* Preview Content */,
+			);
+			path = "jackal-apple";
+			sourceTree = "<group>";
+		};
+		58DA330E29CAE25800C2BAAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58DA330F29CAE25800C2BAAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58DA331829CAE25900C2BAAB /* jackal-appleTests */ = {
+			isa = PBXGroup;
+			children = (
+				58DA331929CAE25900C2BAAB /* jackal_appleTests.swift */,
+			);
+			path = "jackal-appleTests";
+			sourceTree = "<group>";
+		};
+		58DA332229CAE25900C2BAAB /* jackal-appleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58DA332329CAE25900C2BAAB /* jackal_appleUITests.swift */,
+				58DA332529CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift */,
+			);
+			path = "jackal-appleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DA32FE29CAE25800C2BAAB /* jackal-apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DA332929CAE25900C2BAAB /* Build configuration list for PBXNativeTarget "jackal-apple" */;
+			buildPhases = (
+				58DA32FB29CAE25800C2BAAB /* Sources */,
+				58DA32FC29CAE25800C2BAAB /* Frameworks */,
+				58DA32FD29CAE25800C2BAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jackal-apple";
+			productName = "jackal-apple";
+			productReference = 58DA32FF29CAE25800C2BAAB /* jackal-apple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58DA331429CAE25900C2BAAB /* jackal-appleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DA332C29CAE25900C2BAAB /* Build configuration list for PBXNativeTarget "jackal-appleTests" */;
+			buildPhases = (
+				58DA331129CAE25900C2BAAB /* Sources */,
+				58DA331229CAE25900C2BAAB /* Frameworks */,
+				58DA331329CAE25900C2BAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DA331729CAE25900C2BAAB /* PBXTargetDependency */,
+			);
+			name = "jackal-appleTests";
+			productName = "jackal-appleTests";
+			productReference = 58DA331529CAE25900C2BAAB /* jackal-appleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58DA331E29CAE25900C2BAAB /* jackal-appleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DA332F29CAE25900C2BAAB /* Build configuration list for PBXNativeTarget "jackal-appleUITests" */;
+			buildPhases = (
+				58DA331B29CAE25900C2BAAB /* Sources */,
+				58DA331C29CAE25900C2BAAB /* Frameworks */,
+				58DA331D29CAE25900C2BAAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DA332129CAE25900C2BAAB /* PBXTargetDependency */,
+			);
+			name = "jackal-appleUITests";
+			productName = "jackal-appleUITests";
+			productReference = 58DA331F29CAE25900C2BAAB /* jackal-appleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DA32F729CAE25800C2BAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					58DA32FE29CAE25800C2BAAB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					58DA331429CAE25900C2BAAB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 58DA32FE29CAE25800C2BAAB;
+					};
+					58DA331E29CAE25900C2BAAB = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 58DA32FE29CAE25800C2BAAB;
+					};
+				};
+			};
+			buildConfigurationList = 58DA32FA29CAE25800C2BAAB /* Build configuration list for PBXProject "jackal-apple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DA32F629CAE25800C2BAAB;
+			productRefGroup = 58DA330029CAE25800C2BAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DA32FE29CAE25800C2BAAB /* jackal-apple */,
+				58DA331429CAE25900C2BAAB /* jackal-appleTests */,
+				58DA331E29CAE25900C2BAAB /* jackal-appleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DA32FD29CAE25800C2BAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DA331029CAE25800C2BAAB /* Preview Assets.xcassets in Resources */,
+				58DA330C29CAE25800C2BAAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DA331329CAE25900C2BAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DA331D29CAE25900C2BAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DA32FB29CAE25800C2BAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DA330829CAE25800C2BAAB /* jackal_apple.xcdatamodeld in Sources */,
+				58DA330329CAE25800C2BAAB /* jackal_appleApp.swift in Sources */,
+				58DA330A29CAE25800C2BAAB /* ContentView.swift in Sources */,
+				58DA330529CAE25800C2BAAB /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DA331129CAE25900C2BAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DA331A29CAE25900C2BAAB /* jackal_appleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DA331B29CAE25900C2BAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DA332429CAE25900C2BAAB /* jackal_appleUITests.swift in Sources */,
+				58DA332629CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58DA331729CAE25900C2BAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DA32FE29CAE25800C2BAAB /* jackal-apple */;
+			targetProxy = 58DA331629CAE25900C2BAAB /* PBXContainerItemProxy */;
+		};
+		58DA332129CAE25900C2BAAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DA32FE29CAE25800C2BAAB /* jackal-apple */;
+			targetProxy = 58DA332029CAE25900C2BAAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58DA332729CAE25900C2BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DA332829CAE25900C2BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58DA332A29CAE25900C2BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "jackal-apple/jackal_apple.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jackal-apple/Preview Content\"";
+				DEVELOPMENT_TEAM = B4AG9MPE83;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.x0y14.jackal-apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58DA332B29CAE25900C2BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "jackal-apple/jackal_apple.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"jackal-apple/Preview Content\"";
+				DEVELOPMENT_TEAM = B4AG9MPE83;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.x0y14.jackal-apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58DA332D29CAE25900C2BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4AG9MPE83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.x0y14.jackal-appleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jackal-apple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jackal-apple";
+			};
+			name = Debug;
+		};
+		58DA332E29CAE25900C2BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4AG9MPE83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.x0y14.jackal-appleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jackal-apple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/jackal-apple";
+			};
+			name = Release;
+		};
+		58DA333029CAE25900C2BAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4AG9MPE83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.x0y14.jackal-appleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jackal-apple";
+			};
+			name = Debug;
+		};
+		58DA333129CAE25900C2BAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4AG9MPE83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.x0y14.jackal-appleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jackal-apple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DA32FA29CAE25800C2BAAB /* Build configuration list for PBXProject "jackal-apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DA332729CAE25900C2BAAB /* Debug */,
+				58DA332829CAE25900C2BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DA332929CAE25900C2BAAB /* Build configuration list for PBXNativeTarget "jackal-apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DA332A29CAE25900C2BAAB /* Debug */,
+				58DA332B29CAE25900C2BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DA332C29CAE25900C2BAAB /* Build configuration list for PBXNativeTarget "jackal-appleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DA332D29CAE25900C2BAAB /* Debug */,
+				58DA332E29CAE25900C2BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DA332F29CAE25900C2BAAB /* Build configuration list for PBXNativeTarget "jackal-appleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DA333029CAE25900C2BAAB /* Debug */,
+				58DA333129CAE25900C2BAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58DA330629CAE25800C2BAAB /* jackal_apple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58DA330729CAE25800C2BAAB /* jackal_apple.xcdatamodel */,
+			);
+			currentVersion = 58DA330729CAE25800C2BAAB /* jackal_apple.xcdatamodel */;
+			path = jackal_apple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58DA32F729CAE25800C2BAAB /* Project object */;
+}
