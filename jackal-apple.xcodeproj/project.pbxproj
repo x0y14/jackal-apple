@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58AC9DBB29CBFA7100A201C4 /* notify.connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC9DB229CBFA7100A201C4 /* notify.connect.swift */; };
+		58AC9DBC29CBFA7100A201C4 /* notify.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC9DB329CBFA7100A201C4 /* notify.pb.swift */; };
+		58AC9DBD29CBFA7100A201C4 /* types.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC9DB629CBFA7100A201C4 /* types.pb.swift */; };
+		58AC9DBE29CBFA7100A201C4 /* chat.connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC9DB929CBFA7100A201C4 /* chat.connect.swift */; };
+		58AC9DBF29CBFA7100A201C4 /* chat.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC9DBA29CBFA7100A201C4 /* chat.pb.swift */; };
 		58DA330329CAE25800C2BAAB /* jackal_appleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330229CAE25800C2BAAB /* jackal_appleApp.swift */; };
 		58DA330529CAE25800C2BAAB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330429CAE25800C2BAAB /* Persistence.swift */; };
 		58DA330829CAE25800C2BAAB /* jackal_apple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58DA330629CAE25800C2BAAB /* jackal_apple.xcdatamodeld */; };
@@ -16,6 +21,10 @@
 		58DA331A29CAE25900C2BAAB /* jackal_appleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA331929CAE25900C2BAAB /* jackal_appleTests.swift */; };
 		58DA332429CAE25900C2BAAB /* jackal_appleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA332329CAE25900C2BAAB /* jackal_appleUITests.swift */; };
 		58DA332629CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA332529CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift */; };
+		58DA333429CAE34000C2BAAB /* proto in Resources */ = {isa = PBXBuildFile; fileRef = 58DA333329CAE34000C2BAAB /* proto */; };
+		58DA333629CAE37600C2BAAB /* buf.gen.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 58DA333529CAE37600C2BAAB /* buf.gen.yaml */; };
+		58DA333829CAE45B00C2BAAB /* buf.work.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 58DA333729CAE45B00C2BAAB /* buf.work.yaml */; };
+		58DA333F29CAE81C00C2BAAB /* Connect in Frameworks */ = {isa = PBXBuildFile; productRef = 58DA333E29CAE81C00C2BAAB /* Connect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58AC9DB229CBFA7100A201C4 /* notify.connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notify.connect.swift; sourceTree = "<group>"; };
+		58AC9DB329CBFA7100A201C4 /* notify.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notify.pb.swift; sourceTree = "<group>"; };
+		58AC9DB629CBFA7100A201C4 /* types.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.pb.swift; sourceTree = "<group>"; };
+		58AC9DB929CBFA7100A201C4 /* chat.connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chat.connect.swift; sourceTree = "<group>"; };
+		58AC9DBA29CBFA7100A201C4 /* chat.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chat.pb.swift; sourceTree = "<group>"; };
 		58DA32FF29CAE25800C2BAAB /* jackal-apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jackal-apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DA330229CAE25800C2BAAB /* jackal_appleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleApp.swift; sourceTree = "<group>"; };
 		58DA330429CAE25800C2BAAB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +63,9 @@
 		58DA331F29CAE25900C2BAAB /* jackal-appleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jackal-appleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DA332329CAE25900C2BAAB /* jackal_appleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleUITests.swift; sourceTree = "<group>"; };
 		58DA332529CAE25900C2BAAB /* jackal_appleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jackal_appleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58DA333329CAE34000C2BAAB /* proto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = proto; sourceTree = "<group>"; };
+		58DA333529CAE37600C2BAAB /* buf.gen.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = buf.gen.yaml; sourceTree = "<group>"; };
+		58DA333729CAE45B00C2BAAB /* buf.work.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = buf.work.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DA333F29CAE81C00C2BAAB /* Connect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +94,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58AC9DAF29CBFA7100A201C4 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB029CBFA7100A201C4 /* notify */,
+				58AC9DB429CBFA7100A201C4 /* types */,
+				58AC9DB729CBFA7100A201C4 /* chat */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		58AC9DB029CBFA7100A201C4 /* notify */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB129CBFA7100A201C4 /* v1 */,
+			);
+			path = notify;
+			sourceTree = "<group>";
+		};
+		58AC9DB129CBFA7100A201C4 /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB229CBFA7100A201C4 /* notify.connect.swift */,
+				58AC9DB329CBFA7100A201C4 /* notify.pb.swift */,
+			);
+			path = v1;
+			sourceTree = "<group>";
+		};
+		58AC9DB429CBFA7100A201C4 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB529CBFA7100A201C4 /* v1 */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		58AC9DB529CBFA7100A201C4 /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB629CBFA7100A201C4 /* types.pb.swift */,
+			);
+			path = v1;
+			sourceTree = "<group>";
+		};
+		58AC9DB729CBFA7100A201C4 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB829CBFA7100A201C4 /* v1 */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		58AC9DB829CBFA7100A201C4 /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				58AC9DB929CBFA7100A201C4 /* chat.connect.swift */,
+				58AC9DBA29CBFA7100A201C4 /* chat.pb.swift */,
+			);
+			path = v1;
+			sourceTree = "<group>";
+		};
 		58DA32F629CAE25800C2BAAB = {
 			isa = PBXGroup;
 			children = (
+				58DA333729CAE45B00C2BAAB /* buf.work.yaml */,
+				58DA333529CAE37600C2BAAB /* buf.gen.yaml */,
+				58DA333329CAE34000C2BAAB /* proto */,
 				58DA330129CAE25800C2BAAB /* jackal-apple */,
 				58DA331829CAE25900C2BAAB /* jackal-appleTests */,
 				58DA332229CAE25900C2BAAB /* jackal-appleUITests */,
@@ -99,6 +180,7 @@
 		58DA330129CAE25800C2BAAB /* jackal-apple */ = {
 			isa = PBXGroup;
 			children = (
+				58AC9DAF29CBFA7100A201C4 /* Generated */,
 				58DA330229CAE25800C2BAAB /* jackal_appleApp.swift */,
 				58DA330429CAE25800C2BAAB /* Persistence.swift */,
 				58DA330929CAE25800C2BAAB /* ContentView.swift */,
@@ -151,6 +233,9 @@
 			dependencies = (
 			);
 			name = "jackal-apple";
+			packageProductDependencies = (
+				58DA333E29CAE81C00C2BAAB /* Connect */,
+			);
 			productName = "jackal-apple";
 			productReference = 58DA32FF29CAE25800C2BAAB /* jackal-apple.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +308,9 @@
 				Base,
 			);
 			mainGroup = 58DA32F629CAE25800C2BAAB;
+			packageReferences = (
+				58DA333D29CAE81C00C2BAAB /* XCRemoteSwiftPackageReference "connect-swift" */,
+			);
 			productRefGroup = 58DA330029CAE25800C2BAAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,8 +327,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DA333429CAE34000C2BAAB /* proto in Resources */,
 				58DA331029CAE25800C2BAAB /* Preview Assets.xcassets in Resources */,
+				58DA333629CAE37600C2BAAB /* buf.gen.yaml in Resources */,
 				58DA330C29CAE25800C2BAAB /* Assets.xcassets in Resources */,
+				58DA333829CAE45B00C2BAAB /* buf.work.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +358,13 @@
 			files = (
 				58DA330829CAE25800C2BAAB /* jackal_apple.xcdatamodeld in Sources */,
 				58DA330329CAE25800C2BAAB /* jackal_appleApp.swift in Sources */,
+				58AC9DBD29CBFA7100A201C4 /* types.pb.swift in Sources */,
 				58DA330A29CAE25800C2BAAB /* ContentView.swift in Sources */,
 				58DA330529CAE25800C2BAAB /* Persistence.swift in Sources */,
+				58AC9DBE29CBFA7100A201C4 /* chat.connect.swift in Sources */,
+				58AC9DBF29CBFA7100A201C4 /* chat.pb.swift in Sources */,
+				58AC9DBB29CBFA7100A201C4 /* notify.connect.swift in Sources */,
+				58AC9DBC29CBFA7100A201C4 /* notify.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +716,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58DA333D29CAE81C00C2BAAB /* XCRemoteSwiftPackageReference "connect-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bufbuild/connect-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58DA333E29CAE81C00C2BAAB /* Connect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58DA333D29CAE81C00C2BAAB /* XCRemoteSwiftPackageReference "connect-swift" */;
+			productName = Connect;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		58DA330629CAE25800C2BAAB /* jackal_apple.xcdatamodeld */ = {

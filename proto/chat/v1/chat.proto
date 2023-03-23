@@ -1,0 +1,31 @@
+syntax = "proto3";
+package chat.v1;
+
+import "types/v1/types.proto";
+
+message CreateUserRequest {
+  types.v1.User user = 1;
+}
+message CreateUserResponse {
+  types.v1.User user = 1;
+}
+
+message GetUserRequest {
+  string user_id = 1;
+}
+message GetUserResponse {
+  types.v1.User user = 1;
+}
+
+message SendMessageRequest {
+  types.v1.Message message = 1;
+}
+message SendMessageResponse {
+  types.v1.Message message = 1;
+}
+
+service ChatService {
+  rpc CreateUser(CreateUserRequest) returns (CreateUserResponse) {};
+  rpc GetUser(GetUserRequest) returns (GetUserResponse) {};
+  rpc SendMessage(SendMessageRequest) returns (SendMessageResponse) {};
+}
